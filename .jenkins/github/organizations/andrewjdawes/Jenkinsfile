@@ -1,0 +1,10 @@
+pipeline {
+    agent any // Use any available agent
+    stages {
+        stage('Hello') {
+            steps {
+                echo 'Hello, World!'
+            }
+        }
+    }
+}
